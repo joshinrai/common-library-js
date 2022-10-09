@@ -1,0 +1,24 @@
+{
+  "name": "common-library-js",
+  "version": "1.3.4",
+  "description": "js",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "start": "dumi dev",
+    "build:doc": "dumi build",
+    "build": "father-build build"
+  },
+  "files": [
+    "es"
+  ],
+  "author": "joshinrai",
+  "license": "ISC",
+  "devDependencies": {
+    "dumi": "1.1.23",
+    "father-build": "1.19.6"
+  },
+  "dependencies": {
+    "axios": "0.21.1"
+  }
+}
