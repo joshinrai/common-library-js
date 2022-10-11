@@ -1,4 +1,5 @@
 export * from './data-type'
+export * from './Date'
 export * from './object'
 export * from './storage'
 export * from './url'
