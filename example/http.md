@@ -45,7 +45,7 @@ export default () => {
           name: 123,
         },
         params: {
-          name: "吕肥肥",
+          name: "test",
           age: 18,
           text: null,
         },
@@ -63,7 +63,7 @@ export default () => {
       .post(
         "/saas/v1/basic/dataTypes",
         {
-          name: "吕肥肥",
+          name: "test",
           age: 18,
         },
         {

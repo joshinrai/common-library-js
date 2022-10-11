@@ -17,13 +17,13 @@ import { omitValues } from "common-library-js";
 export default () => {
   console.log(
     omitValues({
-      name: "吕肥肥",
+      name: "test",
       age: undefined,
       sex: "",
       you: null,
     })
   );
-  console.log(omitValues([null, "", "吕肥肥"]));
+  console.log(omitValues([null, "", "test"]));
   return <div>object</div>;
 };
 ```
